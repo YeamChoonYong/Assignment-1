@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 30px 10%;
+}
+
+li, .navButton, button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: gold;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(18, 30, 30, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(18, 30, 30, 0.8);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px;
+    background-color: black;
+}
+
+.readingText {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: clamp(3px, 3vw, 20px);
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+    border: 2px white solid;
+}
+
+.btn :hover{
+    background-color: white;
+    color: black;
+}
+
+.content {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.songCover:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.footerLinks a {
+    text-decoration: none;
+}
+
+.footerLinks a:visited {
+    color: white;
+}
+
+.playlistCover {
+    height: 300px;
+    width: 300px;
+}
+
+.playlistCover:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#ourVision {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#testimony {
+    text-align: left;
+    font-style: italic;
+}
+
+.line {
+    width:100%;
+    background-color:white;
+    height: 4px;
+}
+
+.submitDemo {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(92, 92, 92);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(33, 35, 31, 0.453);
+    border-radius: 100vw;
+}

@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            .header {
-                background-color: black;
-                color: white;
-                display: flex;
-                justify-content: space-around;
-            }
-            .footer {
-                background-color: black;
-                color: white;
-                display: flex;
-                justify-content: space-around;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-        <header class="header">
-            <h1><a href="#">Home</a></h1>
-            <h1><a href="#">Music</a></h1>
-            <h1><a href="#">About</a></h1>
+        <header>
+            <img class="logo" src="images/logo.png" alt="Bandit Records Logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html" class="navButton">Home</a></li>
+                    <li><a href="aboutus.html" class="navButton">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contactus.html"><button>Contact</button></a>
         </header>
+        <div class="line"></div>
         <div>
-            <h1>(Insert Label Name Here)</h1>
-            <p>
-                Welcome to (ILNH). We are a newly founded electronic music label who are aiming to spread the culture of Electronic Dance Music Across The World.
-            </p>
-            <p>
-
-            </p>
+            <h1 class="title">Bandit Records</h1>
+            <div class="readingText">
+                <p>
+                    Welcome to Bandit Records. 
+                    We are a newly founded electronic music label who are aiming 
+                    to spread the culture of Electronic Dance Music Across The World.
+                </p>
+            </div>
+            <div class="readingText">
+                <p>
+                    On this website you will find a multitude of artist 
+                    who have signed with us and have released loads of 
+                    amazing wonders of sound that you will definitely find pleasing!
+                </p>
+            </div>
+            <div class="readingText">
+                <a href="aboutus.html">
+                    <button class="btn">Learn More</button>
+                </a>
+            </div>
         </div>
-        <footer class="footer">
-            <a href="#">About</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Careers</a>
+
+        <div class="line"></div>
+        <div>
+            <h1 class="title">
+                Check out some of our latest music from our amazing artists!
+            </h1>
+            <div class="content">
+                <div>
+                    <p>Star Bandit - Track 1</p>
+                    <img src="images/Song Cover 1.png" alt="Track 1" class=songCover id="songCover1">
+                    <div>
+                        <audio class=songPreview id="songPreview1">
+                            <source src="Songs/Song 1 for Website.wav" type="audio/wav">
+                        </audio>
+                    </div>
+                </div>
+                <div>
+                    <p>Hydra - Track 2</p>
+                    <img src="images/Song Cover 2.png" alt="Track 2" class="songCover" id="songCover2">
+                    <div>
+                        <audio class="songPreview" id="songPreview2">
+                            <source src="Songs/Song 3 for Website.wav" type="audio/wav">
+                        </audio>
+                    </div>
+                </div>
+                <div>
+                    <p>Jade Warrior - Track 3</p>
+                    <img src="images/Song Cover 3.png" alt="Track 3" class="songCover" id="songCover3">
+                    <div>
+                        <audio class="songPreview" id="songPreview3">
+                            <source src="Songs/Song 2 for Website.wav" type="audio/wav">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <h1 class="title">
+                Here are some playlists that you might find amazing for events like parties!
+            </h1>
+            <div class="content">
+                <div>
+                    <p>Galactic Journey (Unreleased)</p>
+                    <img src="images/Galactic_Journey.png" alt="Galactic Journey.png" class="playlistCover">
+                </div>
+                <div>
+                    <p>Isekai Dreams (Unreleased)</p>
+                    <img src="images/Isekai_Dreams.png" alt="Isekai Dreams.png" class="playlistCover"> 
+                </div>
+                <div>
+                    <p>Neverending Nights (Unreleased)</p>
+                    <img src="images/Neverending_Nights.png" alt="Neverending Night.png" class="playlistCover"> 
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <h1 class="title">Get to learn about some of the artists on Bandit Records!</h1>
+            <div class="content">
+                <div>
+                    <p>Hydra</p>
+                    <img source="#" alt="Hydra.png">
+                </div>
+                <div>
+                    <p>Star Bandit</p>
+                    <img source="#" alt="Star Bandit.png">
+                </div>
+                <div>
+                    <p>Jade Warrior</p>
+                    <img source="#" alt="Jade Warrior.png">
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <footer>
+            <ul class="footerLinks">
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </ul>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
