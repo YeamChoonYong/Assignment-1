@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/ca4dfa9ac0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -24,21 +25,53 @@
                     a demo to us and we will consider you greatly.
                 </p>
             </div>
-            <div class="line"></div>
-            <div class="submitDemo">
-                <p>Submit a Demo</p>
-                <Button>Submit</Button>
+            <div class="submitButton">
+                <a href="#"><button>Submit a Demo</button></a>
             </div>
         </div>
-        <form>
-            <input type="text" placeholder="Enter Your Name">
-            <input type="text" placeholder="Enter Your Stagename">
-            
-        </form>
+        <div class="line"></div>
+        <div class="readingText">
+            <div>
+                <h1>
+                    Want to contact us?
+                </h1>
+                <p>
+                    Support Inquiries
+                    <br>
+                    <a href="mailto:supportbanditrecs.com">support@banditrecs.com</a>
+                </p>
+            </div>
+            <div>
+                <form>
+                    <div class="formQuestion">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="Name" id="Name" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" name="Email" id="Email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="formQuestion">
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea rows="4" name="Message" id="Message" placeholder="Your Message Here"></textarea>
+                        </div>
+                    </div>
+                    <div class="formQuestion">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="line"></div>
         <footer>
             <ul class="footerLinks">
-                <a href="#">About</a>
-                <a href="#">Contact Us</a>
+                <a href="aboutus.html">About</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
             </ul>
         </footer>
     </body>
