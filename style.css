@@ -230,6 +230,9 @@ input {
     margin-top: 5px;
     margin-bottom: 5px; 
     border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-family: "Rajdhani";
 }
 
 textarea {
@@ -239,4 +242,6 @@ textarea {
     padding: 10px;
     margin-top: 2px;
     border: 1px solid white;
+    color: white;
+    font-family: "Rajdhani";
 }
