@@ -19,6 +19,10 @@ As a producer who is trying to join the label, I want the website to have easy n
 
 For the navigation across the webpages, I decided to use headers and footers as the main means of navigating across the webpages. This makes finding the navigation links easy. That way the user can easily navigate across the pages whether they are at the top of the website or the bottom of the website.
 
+## Wireframe
+
+https://xd.adobe.com/view/0525b96d-3ed1-43fd-aeeb-f5ebaad81d39-5076/
+
 # Features
 
 ## index.html
